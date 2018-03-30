@@ -35,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4F1A2E206E1253007A7816 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC826352206E03FE00878FDA /* AppDelegate.swift */,
+				EC826359206E03FE00878FDA /* Assets.xcassets */,
+				EC82635B206E03FE00878FDA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EC826346206E03FE00878FDA = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +64,9 @@
 		EC826351206E03FE00878FDA /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				EC826352206E03FE00878FDA /* AppDelegate.swift */,
+				EC4F1A2E206E1253007A7816 /* Supporting Files */,
 				EC826354206E03FE00878FDA /* ViewController.swift */,
 				EC826356206E03FE00878FDA /* Main.storyboard */,
-				EC826359206E03FE00878FDA /* Assets.xcassets */,
-				EC82635B206E03FE00878FDA /* LaunchScreen.storyboard */,
 				EC82635E206E03FE00878FDA /* Info.plist */,
 			);
 			path = Concentration;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y24FNTM2N4;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yher.hisaboh.Concentration;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y24FNTM2N4;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yher.hisaboh.Concentration;
