@@ -15,6 +15,7 @@
 		EC826358206E03FE00878FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC826356206E03FE00878FDA /* Main.storyboard */; };
 		EC82635A206E03FE00878FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC826359206E03FE00878FDA /* Assets.xcassets */; };
 		EC82635D206E03FE00878FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC82635B206E03FE00878FDA /* LaunchScreen.storyboard */; };
+		ECB6B4552075FBE600782605 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6B4542075FBE600782605 /* VCLLoggingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EC826359206E03FE00878FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC82635C206E03FE00878FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC82635E206E03FE00878FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB6B4542075FBE600782605 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				EC82635E206E03FE00878FDA /* Info.plist */,
 				EC4F1A2F206E27C3007A7816 /* Concentration.swift */,
 				EC4F1A31206E287A007A7816 /* Card.swift */,
+				ECB6B4542075FBE600782605 /* VCLLoggingViewController.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB6B4552075FBE600782605 /* VCLLoggingViewController.swift in Sources */,
 				EC5E41B72074B11B00E9934F /* ConcentrationThemeChooserViewController.swift in Sources */,
 				EC826355206E03FE00878FDA /* ConcentrationViewController.swift in Sources */,
 				EC826353206E03FE00878FDA /* AppDelegate.swift in Sources */,

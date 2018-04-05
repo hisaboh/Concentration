@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConcentrationViewController: UIViewController {
+class ConcentrationViewController: VCLLoggingViewController {
     private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairsOfCards)
     var numberOfPairsOfCards: Int {
         return (cardButtons.count + 1) / 2
