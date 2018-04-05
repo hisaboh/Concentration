@@ -46,7 +46,7 @@ struct Concentration {
         }
         // TODO: shuffle cards.
         while tmpCards.count > 0 {
-            cards.append(tmpCards.remove(at: tmpCards.count.arc4radom))
+            cards.append(tmpCards.remove(at: tmpCards.count.arc4random))
         }
     }
 }

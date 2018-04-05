@@ -1,6 +1,5 @@
 //
 //  Card.swift
-//  Concentration
 //
 //  Created by 牧野 壽永 on 2018/03/30.
 //  Copyright © 2018年 牧野 壽永. All rights reserved.
